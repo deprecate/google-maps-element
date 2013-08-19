@@ -1,4 +1,4 @@
-# &lt;my-element&gt;
+# &lt;map&gt;
 
 TODO: Write a project description
 
@@ -21,16 +21,15 @@ TODO: Write a project description
 3. Start using it!
 
 	```xml
-	<my-element></my-element>
+	<map></map>
 	```
 
 ## Options
 
-Attribute  | Options                   | Default             | Description
----        | ---                       | ---                 | ---
-`foo`      | *string*                  | `bar`               | Lorem ipsum
-`bar`      | `abc`, `def`, `ghi` 	   | `foo`               | Lorem ipsum
-`height`   | *int*                     | `100`               | Lorem ipsum
+Attribute   | Options  | Default	| Description
+---         | ---	   | ---    	| ---
+`latitude`  | *string* | `37.332`	| Lorem ipsum
+`longitude` | *string* | `-122.031` | Lorem ipsum
 
 
 ## Contributing

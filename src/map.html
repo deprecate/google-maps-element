@@ -1,0 +1,16 @@
+<polymer-element name="map"
+		 attributes="latitude longitude">
+
+	<template>
+		<p>Latitude: {{latitude}}</p>
+		<p>Longitude: {{longitude}}</p>
+	</template>
+
+	<script>
+		Polymer('map', {
+			latitude:  '37.332',
+			longitude: '-122.031'
+		});
+	</script>
+
+</polymer-element>
