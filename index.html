@@ -2,18 +2,26 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Map</title>
+	<title>Google Maps</title>
 
 	<!-- Importing Web Component's Polyfill -->
 	<script src="lib/polymer.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
 	<!-- Importing Custom Elements -->
-	<link rel="import" href="src/map.html">
+	<link rel="import" href="src/gmaps.html">
+
+	<style>
+	gmaps {
+		height: 400px;
+		width: 400px;
+	}
+	</style>
 </head>
 <body>
 
 	<!-- Using Custom Elements -->
-	<map></map>
+	<gmaps zoom="5" type="hybrid"></gmaps>
 
 </body>
 </html>
