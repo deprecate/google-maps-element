@@ -50,9 +50,9 @@ Attribute   | Options  | Default                                      | Descript
 
 ## History
 
-* [v0.1.1](https://github.com/eduardolundgren/google-maps/releases/tag/0.1.1) September 18, 2013
+* [v0.1.1](https://github.com/eduardolundgren/google-maps-element/releases/tag/0.1.1) September 18, 2013
 	* Rename element from `<gmaps>` to `<google-maps>`
-* [v0.1.0](https://github.com/eduardolundgren/google-maps/releases/tag/0.1.0) August 20, 2013
+* [v0.1.0](https://github.com/eduardolundgren/google-maps-element/releases/tag/0.1.0) August 20, 2013
 	* Initial development release
 * v0.0.1 August 19, 2013
 	* Started project using [boilerplate-element](https://github.com/customelements/boilerplate-element)
