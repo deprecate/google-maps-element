@@ -1,4 +1,4 @@
-# &lt;gmaps&gt;
+# &lt;google-maps&gt;
 
 Web Component wrapper for Google Maps using Polymer.
 
