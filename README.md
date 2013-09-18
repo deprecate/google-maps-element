@@ -1,33 +1,31 @@
-# &lt;gmaps&gt;
+# &lt;google-maps&gt;
 
-Web Component wrapper for Google Maps using Polymer
-
-> Maintained by [Eduardo Lundgren](https://github.com/eduardolundgren).
+Web Component wrapper for Google Maps using Polymer.
 
 ## Demo
 
 ![Google Maps](http://f.cl.ly/items/0i0f0Z34380T342R131Z/gmaps.png)
 
-> [Check it live](http://eduardolundgren.github.io/gmaps-element).
+> [Check it live](http://eduardolundgren.github.io/google-maps).
 
 ## Usage
 
 1. Import Web Components' polyfill:
 
-	```html
+	```xml
 	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.0.20130816/polymer.min.js"></script>
 	```
 
 2. Import Custom Element:
 
-	```html
-	<link rel="import" href="src/gmaps.html">
+	```xml
+	<link rel="import" href="src/google-maps.html">
 	```
 
 3. Start using it!
 
-	```html
-	<gmaps></gmaps>
+	```xml
+	<google-maps></google-maps>
 	```
 
 ## Options
@@ -52,7 +50,9 @@ Attribute   | Options  | Default                                      | Descript
 
 ## History
 
-* [v0.1.0](https://github.com/eduardolundgren/gmaps-element/releases/tag/0.1.0) August 20, 2013
+* [v0.1.1](https://github.com/eduardolundgren/google-maps/releases/tag/0.1.1) September 18, 2013
+	* Rename element from `<gmaps>` to `<google-maps>`
+* [v0.1.0](https://github.com/eduardolundgren/google-maps/releases/tag/0.1.0) August 20, 2013
 	* Initial development release
 * v0.0.1 August 19, 2013
 	* Started project using [boilerplate-element](https://github.com/customelements/boilerplate-element)
