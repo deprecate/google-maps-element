@@ -42,13 +42,11 @@
 			},
 
 			latitudeChanged: function() {
-				var latitude = this.getAttribute('latitude');
-				this.updateCenter(latitude);
+				this.updateCenter();
 			},
 
 			longitudeChanged: function() {
-				var longitude = this.getAttribute('longitude');
-				this.updateCenter(longitude);
+				this.updateCenter();
 			},
 
 			tiltChanged: function() {
@@ -64,8 +62,8 @@
 			updateCenter: function(opt_lat, opt_long) {
 				this.map.setCenter(
 					new google.maps.LatLng(
-						opt_lat !== undefined ? opt_lat : this.latitude,
-						opt_long !== undefined ? opt_long : this.longitude));
+						opt_lat || this.latitude,
+						opt_long || this.longitude));
 			},
 
 			zoomChanged: function() {
