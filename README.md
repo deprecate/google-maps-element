@@ -6,7 +6,7 @@ Web Component wrapper for Google Maps using Polymer.
 
 ![Google Maps](http://f.cl.ly/items/0i0f0Z34380T342R131Z/gmaps.png)
 
-> [Check it live](http://eduardolundgren.github.io/google-maps).
+> [Check it live](http://eduardolundgren.github.io/google-maps-element).
 
 ## Usage
 
