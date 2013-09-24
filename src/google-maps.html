@@ -42,13 +42,11 @@
 			},
 
 			latitudeChanged: function() {
-				var latitude = this.getAttribute('latitude');
-				this.updateCenter(latitude);
+				this.updateCenter();
 			},
 
 			longitudeChanged: function() {
-				var longitude = this.getAttribute('longitude');
-				this.updateCenter(longitude);
+				this.updateCenter();
 			},
 
 			tiltChanged: function() {
